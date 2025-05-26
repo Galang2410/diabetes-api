@@ -20,7 +20,7 @@ if not os.path.exists("diabetes_model_tuned2.pkl"):
     gdown.download(url, "diabetes_model_tuned2.pkl", quiet=False)
 
 # Load model
-model = joblib.load("diabetes_model_tuned.pkl")
+model = joblib.load("diabetes_model_tuned2.pkl")
 
 # Buat app flask
 app = Flask(__name__)
