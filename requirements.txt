@@ -1,7 +1,9 @@
 flask
-flask-cors
-pandas
+flask_cors
 joblib
-psycopg2-binary
+pandas
+scikit-learn
 gdown
+psycopg2-binary
 pyjwt
+imblearn
